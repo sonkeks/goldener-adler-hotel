@@ -1,0 +1,44 @@
+:root {
+    --primary: #665E52;
+    --secondary: #C2B79B;
+    --secondary-light: #DAD5B7;
+    --tertiary: #3A5F6F;
+    --tertiary-dark: #243757;
+    --text: #292522;
+    --background: #FDFDFD;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    line-height: 1.6;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    color: var(--text);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: calc(100vh - 75px);
+    max-width: 1000px;
+    margin: auto;
+    text-align: justify;
+}
+
+.button {
+    padding: 10px 12px 10px 12px;
+    font-size: 18px;
+    color: #665E52;
+    border-radius: 0;
+    border: 0;
+    background-color: #FDFDFD;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: #dadada;
+}
