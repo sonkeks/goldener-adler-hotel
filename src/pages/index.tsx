@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import AboutUsContainer from "../components/AboutUsContainer";
 import RoomsContainer from "../components/RoomsContainer";
 import Header from "../components/Header";
@@ -7,9 +6,10 @@ export default function HomePage() {
     return (
         <div>
             <Header />
+            <div className="container">
             <AboutUsContainer />
             <RoomsContainer />
-            <Link href="/rooms">See our Rooms</Link>
+            </div>
         </div>
     );
 }

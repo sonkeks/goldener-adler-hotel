@@ -23,10 +23,35 @@ body {
 }
 
 .container {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.section {
     height: calc(100vh - 75px);
     max-width: 1000px;
     margin: auto;
     text-align: justify;
+}
+
+h1 {
+    font-size: 30px;
+    font-variant: all-petite-caps;
+}
+
+.actionButton {
+    text-decoration: none;
+    padding: 10px 12px 10px 12px;
+    font-size: 18px;
+    color: var(--background);
+    border-radius: 0;
+    border: 0;
+    background-color: var(--primary);
+}
+
+.actionButton:hover {
+    cursor: pointer;
+    background-color: #413b33
 }
 
 .button {

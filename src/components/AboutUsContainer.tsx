@@ -2,7 +2,7 @@ import styles from "../../styles/aboutUsContainer.module.css"
 
 export default function AboutUsContainer() {
     return (
-        <div className={styles.info}>
+        <section className={styles.info}>
             <div>
             <h1>Über Uns</h1>
             <div>
@@ -11,6 +11,6 @@ export default function AboutUsContainer() {
                 Zimmern und genießen Sie den Service unserer Pension. Wir würden uns freuen, Sie künftig zu unseren Gästen zählen zu dürfen.
             </div>
             </div>
-        </div>
+        </section>
     )
 }

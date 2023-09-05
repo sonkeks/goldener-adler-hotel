@@ -1,6 +1,7 @@
 import styles from "../../styles/navbar.module.css"
 import {useScrollPosition} from "../scrollHelper";
 import {useState} from "react";
+import {GiEagleEmblem} from "react-icons/gi";
 
 export default function Navbar() {
     const [transparentAtTop, setTransparentAtTop] = useState<boolean>(true);
@@ -16,7 +17,7 @@ export default function Navbar() {
         <div className={transparentAtTop ? styles.navbarTransparent : styles.navbar}>
             <div className={styles.flexContainer}>
                 <div className={styles.innerFlex}>
-                    <h2>Pension Goldener Adler</h2>
+                    <GiEagleEmblem size={50}/>
                 </div>
                 <div className={styles.innerFlex}>
                     <span>Über Uns</span>
