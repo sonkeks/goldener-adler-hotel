@@ -1,12 +1,12 @@
 import Link from 'next/link';
-import HeaderCarousel from "../components/HeaderCarousel";
 import AboutUsContainer from "../components/AboutUsContainer";
 import RoomsContainer from "../components/RoomsContainer";
+import Header from "../components/Header";
 
 export default function HomePage() {
     return (
         <div>
-            <HeaderCarousel />
+            <Header />
             <AboutUsContainer />
             <RoomsContainer />
             <Link href="/rooms">See our Rooms</Link>
