@@ -1,4 +1,4 @@
-import styles from "../../styles/roomsContainer.module.css"
+import styles from "../../../styles/index/roomsContainer.module.css"
 import Link from "next/link";
 
 export default function RoomsContainer() {

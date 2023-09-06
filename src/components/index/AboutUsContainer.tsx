@@ -1,8 +1,8 @@
-import styles from "../../styles/aboutUsContainer.module.css"
+import styles from "../../../styles/index/aboutUsContainer.module.css"
 
 export default function AboutUsContainer() {
     return (
-        <section className={styles.info}>
+        <section id="aboutUs" className={styles.info}>
             <div>
             <h1>Über Uns</h1>
             <div>

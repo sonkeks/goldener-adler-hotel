@@ -1,10 +1,11 @@
 .navbarTransparent {
     position: fixed;
+    top: 0;
     z-index: 2;
     width: 100%;
     background-color: transparent;
     color: var(--background);
-    transition: background-color, color .3s;
+    transition: background-color .3s, color .3s;
 }
 
 .navbar {
@@ -13,7 +14,34 @@
     width: 100%;
     background-color: var(--background);
     color: var(--text);
-    transition: background-color, color .3s;
+    transition: background-color .3s, color .3s;
+}
+
+.navItem {
+    text-decoration: none;
+    color: inherit;
+}
+
+.underline {
+    height: 3px;
+    width: 50px;
+    background-color: var(--text);
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.underlineTransparent {
+    height: 3px;
+    width: 50px;
+    background-color: var(--background);
+    opacity: 0;
+    transition: opacity .3s;
+}
+
+.navItem:hover, .navItem:hover div {
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity .3s;
 }
 
 .flexContainer {

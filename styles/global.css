@@ -28,18 +28,19 @@ body {
 }
 
 .section {
-    height: calc(100vh - 75px);
+    margin: 50px auto;
     max-width: 1000px;
-    margin: auto;
     text-align: justify;
 }
 
 h1 {
+    margin: 0;
     font-size: 30px;
     font-variant: all-petite-caps;
 }
 
 .actionButton {
+    width: fit-content;
     text-decoration: none;
     padding: 10px 12px 10px 12px;
     font-size: 18px;
