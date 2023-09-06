@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Rooms() {
     return (
         <div>
-            <Header titleLight="Komfort" title="In Jedem Zimmern"
+            <Header titleLight="Komfort" title="In Jedem Zimmer"
                     info="Entdecken Sie unsere gemütlichen Einzelzimmer, Doppelzimmer und unsere Ferienwohnung"
                     image="https://www.althoffcollection.com/fileadmin/_processed_/e/4/csm_althoff-collection-seehotel-ueberfahrt-zimmer-Elegant_Nature_Deluxe_Seeblick_f6085efa8b.jpg"
                     imageAlt="Beispielbild eines Zimmers in der Pension Goldener Adler" color="#3A5F6F"/>

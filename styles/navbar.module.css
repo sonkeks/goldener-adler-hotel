@@ -20,6 +20,18 @@
 .navItem {
     text-decoration: none;
     color: inherit;
+    font-weight: bold;
+    font-variant: all-petite-caps;
+}
+
+.title h3 {
+    margin: 0;
+    line-height: 1.2;
+    font-weight: bold;
+}
+
+.title h3:nth-child(1) {
+    font-weight: lighter;
 }
 
 .underline {

@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Navbar() {
     const pathname = usePathname();
     const [transparentAtTop, setTransparentAtTop] = useState<boolean>(true);
-    const transparentNavbarPages = ["/", "/rooms"];
+    const transparentNavbarPages = ["/", "/rooms", "/service", "/blog"];
 
     useEffect(() => {
         setTransparentAtTop(transparentNavbarPages.includes(pathname));
@@ -32,6 +32,10 @@ export default function Navbar() {
             <div className={styles.flexContainer}>
                 <div className={styles.innerFlex}>
                     <GiEagleEmblem size={50}/>
+                    <div className={styles.title}>
+                        <h3>Pension</h3>
+                        <h3>Goldener Adler</h3>
+                    </div>
                 </div>
                 <div className={styles.innerFlex}>
                     <Link className={styles.navItem} href="/">
@@ -46,16 +50,12 @@ export default function Navbar() {
                         Zimmer
                         <div className={transparentAtTop ? styles.underlineTransparent : styles.underline}></div>
                     </Link>
-                    <Link className={styles.navItem} href="/surroundings">
+                    <Link className={styles.navItem} href="/blog">
                         Umgebung
                         <div className={transparentAtTop ? styles.underlineTransparent : styles.underline}></div>
                     </Link>
                     <span className={styles.navItem}>
                         Kontakt
-                        <div className={transparentAtTop ? styles.underlineTransparent : styles.underline}></div>
-                    </span>
-                    <span className={styles.navItem}>
-                        Impressum
                         <div className={transparentAtTop ? styles.underlineTransparent : styles.underline}></div>
                     </span>
                 </div>

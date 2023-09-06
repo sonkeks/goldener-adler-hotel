@@ -20,7 +20,7 @@ export default function SurroundingsContainer() {
                 </div>
             </div>
             <div className={styles.buttonContainer}>
-                <Link className="actionButton" href="/surroundings">Mehr Erfahren</Link>
+                <Link className="actionButton" href="/blog">Mehr Erfahren</Link>
             </div>
         </section>
     )
