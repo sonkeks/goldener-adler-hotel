@@ -30,14 +30,14 @@ export default function Navbar() {
     return (
         <div className={transparentAtTop ? styles.navbarTransparent : styles.navbar}>
             <div className={styles.flexContainer}>
-                <div className={styles.innerFlex}>
+                <div className={styles.innerFlexLeft}>
                     <GiEagleEmblem size={50}/>
                     <div className={styles.title}>
                         <h3>Pension</h3>
                         <h3>Goldener Adler</h3>
                     </div>
                 </div>
-                <div className={styles.innerFlex}>
+                <div className={styles.innerFlexRight}>
                     <Link className={styles.navItem} href="/">
                         Startseite
                         <div className={transparentAtTop ? styles.underlineTransparent : styles.underline}></div>
@@ -54,10 +54,6 @@ export default function Navbar() {
                         Umgebung
                         <div className={transparentAtTop ? styles.underlineTransparent : styles.underline}></div>
                     </Link>
-                    <span className={styles.navItem}>
-                        Kontakt
-                        <div className={transparentAtTop ? styles.underlineTransparent : styles.underline}></div>
-                    </span>
                 </div>
             </div>
         </div>

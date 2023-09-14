@@ -19,13 +19,13 @@ export default function AboutUsContainer() {
                     </p>
                     <div className={styles.contactList}>
                         <div className={styles.contactItem}>
-                            <FaEnvelope size="30"/><span>goldener.adler@pension.de</span>
+                            <FaEnvelope size="20"/><span>goldener.adler@pension.de</span>
                         </div>
                         <div className={styles.contactItem}>
-                            <FaPhone size="30"/><span>+49 (0) 3976 202045</span>
+                            <FaPhone size="20"/><span>+49 (0) 3976 202045</span>
                         </div>
                         <div className={styles.contactItem}>
-                            <FaLocationDot size="30"/>
+                            <FaLocationDot size="20"/>
                             <span>
                                 <div>Torgelow, Deutschland</div>
                                 <div>Pasewalker Str. 32, 17358</div>

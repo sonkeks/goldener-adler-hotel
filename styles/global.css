@@ -56,6 +56,23 @@ h1 {
     background-color: #413b33
 }
 
+.actionButtonClear {
+    width: fit-content;
+    text-decoration: none;
+    padding: 10px 12px 10px 12px;
+    font-size: 18px;
+    color: var(--primary);
+    border-radius: 0;
+    border: 1px solid var(--primary);
+    background-color: var(--background);
+}
+
+.actionButtonClear:hover {
+    cursor: pointer;
+    background-color: var(--primary);
+    color: var(--background);
+}
+
 .button {
     padding: 10px 12px 10px 12px;
     font-size: 18px;

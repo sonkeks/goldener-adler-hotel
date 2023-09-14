@@ -1,0 +1,187 @@
+.layout {
+    padding-top: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bookingForm {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr auto auto;
+    align-items: center;
+    background-color: #FDFDFD;
+    padding: 0 5px 0 5px;
+    border-radius: 5px;
+    border: 1px solid #cbcbcb;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.bookingForm div {
+    height: 65px;
+    padding: 0 15px 0 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 1.0;
+}
+
+.bookingForm input, .bookingForm select {
+    width: 100px;
+}
+
+.bookingForm div:nth-child(n+2):nth-child(-n+4) {
+    border-left: 1px solid #cbcbcb;
+}
+
+.bookingForm label {
+    font-weight: bold;
+    font-variant: all-petite-caps;
+    font-size: 12px;
+}
+
+.bookingForm input, .bookingForm select {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+.bookingForm input:focus {
+    outline: none;
+}
+
+.searchButton {
+    color: var(--text);
+    width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: all .2s;
+}
+
+.searchButton:hover {
+    transform: scale(1.2);
+    transition: all .2s;
+    cursor: pointer;
+}
+
+.roomList {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.roomItem {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.selected {
+    color: #b09451;
+    border-bottom: 1px solid #b09451;
+}
+
+.selectedButton {
+    background-color: #b09451;
+}
+
+.selectedButton:hover {
+    cursor: pointer;
+    background-color: #7c683a;
+}
+
+.roomItem img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.roomItem h3 {
+    margin: 0 0 8px 0;
+    font-variant: all-petite-caps;
+    font-size: 20px;
+}
+
+.multipleRoomSteps {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.roomStep {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+}
+
+.roomStepIcon:hover {
+    cursor: pointer;
+    background-color: #dadada;
+}
+
+.roomStep.active .roomStepIcon {
+    border: #b09451;
+    background-color: #b09451;
+}
+
+.roomStep.active p {
+    color: #b09451;
+}
+
+.multipleRoomSteps .roomStepIcon {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: 1px solid #cbcbcb;
+    text-align: center;
+    position: relative;
+}
+
+.roomStep p {
+    text-align: center;
+    position: absolute;
+    width: 85px;
+    bottom: -35px;
+    color: #cbcbcb;
+    font-size: 12px;
+}
+
+.roomStepLine {
+    width: 75px;
+    height: 1px;
+    background: #cbcbcb;
+}
+
+.roomStepLine.active {
+    background-color: #b09451;
+}
+
+.shortInfo {
+    display: flex;
+    flex: 1 1 auto;
+    gap: 20px;
+}
+
+.shortInfo span:nth-child(2) {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: solid 1px #cbcbcb;
+    border-right: solid 1px #cbcbcb;
+}
+
+.roomInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    line-height: 1.2;
+}
+
+.nextRoomButton {
+    width: 100%;
+}

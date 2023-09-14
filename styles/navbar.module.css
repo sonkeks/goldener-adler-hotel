@@ -65,7 +65,14 @@
     padding-bottom: 10px;
 }
 
-.innerFlex {
+.innerFlexLeft {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.innerFlexRight {
     display: flex;
     align-items: center;
     gap: 40px;

@@ -43,6 +43,21 @@ export default function Header({titleLight, title, info, image, imageAlt, color}
                     <input type="date"/>
                 </div>
                 <div>
+                    <label>Anzahl Zimmer</label>
+                    <select>
+                        <option value="1">1 Zimmer</option>
+                        <option value="2">2 Zimmer</option>
+                        <option value="3">3 Zimmer</option>
+                        <option value="4">4 Zimmer</option>
+                        <option value="5">5 Zimmer</option>
+                        <option value="6">6 Zimmer</option>
+                        <option value="7">7 Zimmer</option>
+                        <option value="8">8 Zimmer</option>
+                        <option value="9">9 Zimmer</option>
+                        <option value="10">10 Zimmer</option>
+                    </select>
+                </div>
+                <div>
                     <label>Anzahl Personen</label>
                     <select>
                         <option value="1">1 Person</option>
