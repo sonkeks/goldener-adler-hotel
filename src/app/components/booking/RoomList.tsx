@@ -1,16 +1,23 @@
-import styles from "../../../styles/booking.module.css";
+'use client'
+
+import styles from "./booking.module.css";
 import RoomItem from "./RoomItem";
 import {useState} from "react";
 
 interface RoomListProps {
     listIndex: number;
+    formData: Map<number, number>;
+    setFormData: (value: Map<number, number>) => void;
 }
 
-export default function RoomList({listIndex}: RoomListProps) {
-    const [selectedRoom, setSelectedRoom] = useState<number>(null);
+
+export default function RoomList({listIndex, formData, setFormData}: RoomListProps) {
+    const [selectedRoom, setSelectedRoom] = useState<number>(formData.get(listIndex));
 
     const changeRoomSelection = (value: number) => {
         setSelectedRoom(value);
+        formData.set(listIndex, value);
+        setFormData(formData);
     }
 
     return (

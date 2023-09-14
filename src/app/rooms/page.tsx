@@ -1,4 +1,4 @@
-import styles from "../../styles/rooms.module.css";
+import styles from "./rooms.module.css";
 import Header from "../components/Header";
 import Link from "next/link";
 

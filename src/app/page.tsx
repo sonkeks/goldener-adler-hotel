@@ -1,7 +1,7 @@
-import AboutUsContainer from "../components/index/AboutUsContainer";
-import RoomsContainer from "../components/index/RoomsContainer";
-import Header from "../components/Header";
-import SurroundingsContainer from "../components/index/SurroundingsContainer";
+import AboutUsContainer from "./components/index/AboutUsContainer";
+import RoomsContainer from "./components/index/RoomsContainer";
+import Header from "./components/Header";
+import SurroundingsContainer from "./components/index/SurroundingsContainer";
 
 export default function HomePage() {
     return (

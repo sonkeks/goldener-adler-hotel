@@ -1,5 +1,7 @@
-import styles from "../../styles/navbar.module.css"
-import {useScrollPosition} from "../scrollHelper";
+'use client'
+
+import styles from "./navbar.module.css"
+import {useScrollPosition} from "../lib/scrollHelper";
 import {useEffect, useState} from "react";
 import {GiEagleEmblem} from "react-icons/gi";
 import {usePathname} from "next/navigation";

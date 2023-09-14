@@ -1,4 +1,4 @@
-import styles from "../../../styles/index/surroundingsContainer.module.css"
+import styles from "./surroundingsContainer.module.css"
 import Link from "next/link";
 
 export default function SurroundingsContainer() {

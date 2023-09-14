@@ -1,4 +1,4 @@
-import styles from "../../../styles/booking.module.css";
+import styles from "./booking.module.css";
 
 interface RoomItemProps {
     id: number;
@@ -11,7 +11,6 @@ interface RoomItemProps {
 }
 
 export default function RoomItem({id, selected, selectRoom, image, title, shortInfo, price}: RoomItemProps) {
-
     return (
         <div className={`${styles.roomItem} ${selected ? styles.selected : ""}`}>
             <img src={image} alt={title}/>

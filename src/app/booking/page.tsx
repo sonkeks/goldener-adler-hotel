@@ -1,4 +1,4 @@
-import styles from "../../styles/booking.module.css";
+import styles from "../components/booking/booking.module.css";
 import SelectRoomsForm from "../components/booking/SelectRoomsForm";
 
 export default function BookingPage() {

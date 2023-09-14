@@ -1,4 +1,4 @@
-import styles from "../../../styles/index/aboutUsContainer.module.css"
+import styles from "./aboutUsContainer.module.css"
 import {FaEnvelope, FaPhone} from "react-icons/fa";
 import {FaLocationDot} from "react-icons/fa6";
 

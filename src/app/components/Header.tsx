@@ -1,6 +1,8 @@
-import styles from "../../styles/index/header.module.css"
+'use client'
+
+import styles from "./header.module.css"
 import {FaSearch} from "react-icons/fa";
-import { useRouter} from "next/router";
+import { useRouter} from "next/navigation";
 
 interface HeaderProps {
     titleLight: string,
